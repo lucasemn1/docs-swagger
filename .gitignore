@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+
+firebase_admin_services_account.json
+.env

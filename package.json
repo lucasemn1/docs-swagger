@@ -1,0 +1,37 @@
+{
+   "name": "docs-swagger",
+   "version": "1.0.0",
+   "description": "Projeto para demonstração de como documentar APIs com Swagger",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node-dev src/server/index.ts"
+   },
+   "keywords": [
+      "swagger",
+      "api",
+      "backend",
+      "documentation",
+      "documentação"
+   ],
+   "author": "Lucas Emanuel Nascimento Nóbrega Dias (https://github.com/lucasemn1)",
+   "license": "ISC",
+   "dependencies": {
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "firebase-admin": "^9.4.2",
+      "mongodb": "^3.6.3",
+      "mongoose": "^5.11.8",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10"
+   },
+   "devDependencies": {
+      "@types/dotenv": "^8.2.0",
+      "@types/express": "^4.17.9",
+      "@types/mongoose": "^5.10.3",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "ts-node-dev": "^1.1.1",
+      "typescript": "3.3.3333"
+   }
+}
